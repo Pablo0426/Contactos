@@ -92,31 +92,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\065e2c34e99b072752477a6b58415b60.gif" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\d0dcdf6a5cbf434de37da96264da443b.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Waiting.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Morphing dots loader.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\R3cpQ9R.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\83dfa4bd8729fceba2fc7d3e7bf13ac0.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Free-HD-Gif-Wallpapers.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\b452cb70ff138e2a-consejos-de-seguridad-para-proteger-su-hogar-en-poca-de.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\DimImmaterialBasenji-small.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
