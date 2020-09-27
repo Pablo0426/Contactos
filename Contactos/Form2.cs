@@ -60,7 +60,7 @@ namespace Contactos
             catch (Exception)
             {
 
-                MessageBox.Show("Debe de llenar todos los campos o por lo menos ID.");;
+                MessageBox.Show("Debe de llenar todos los campos o por lo menos ID.");
             }
         }
 

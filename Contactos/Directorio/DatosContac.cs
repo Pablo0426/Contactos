@@ -8,6 +8,7 @@ namespace Contactos.Directorio
 {
     public class DatosContac
     {
+        //Miembros de clase necesarios para registrar el contacto
         public int IdContacto { get; set; }
         public string Nombre { get; set; }
         public string Telefono { get; set; }

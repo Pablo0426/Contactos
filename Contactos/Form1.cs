@@ -17,13 +17,16 @@ namespace Contactos
             InitializeComponent();
         }
 
+        //Boton para ir al mantenimiento de contactos
         private void agregarToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Form2 form = new Form2();
             form.Show();
         }
+
         private void Form1_Load(object sender, EventArgs e)
         {
+            //Se hacen trasparentes los labels por cuestion de estetica
             label1.Parent = pictureBox1;
             label1.BackColor = Color.Transparent;
             label2.Parent = pictureBox1;
@@ -36,6 +39,7 @@ namespace Contactos
             label5.BackColor = Color.Transparent;
         }
 
+        //Boton para cerrar la aplicacion 
         private void salirToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Close();

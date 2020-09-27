@@ -8,8 +8,10 @@ namespace Contactos.Directorio
 {
     public class Contacto
     {
+        //Lista de contactos que usa los miembros de clase de datosContacs
         public List<DatosContac> datosContacs;
 
+        //Constructor encargado de crear contactos predeterminados para el inicio del programa
         public Contacto()
         {
             this.datosContacs = new List<DatosContac>()
