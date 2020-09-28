@@ -105,14 +105,12 @@ namespace Contactos
                     Telefono = txtTel.Text
                 };
                 var posicion = dataGridView1.CurrentRow.Index; // Esta variable se usa como referencia para tomar la posicion del la fila en la lista
-                if (NC.IdContacto == int.Parse(txtID.Text)) // Se compara el IdContacto con el txtID 
-                {
-                    dataGridView1[0, posicion].Value = txtID.Text;
-                    dataGridView1[1, posicion].Value = txtNombre.Text; //Segun la pocision del campo se cambia el contenido
-                    dataGridView1[2, posicion].Value = txtTel.Text;
-                    Limpiar(); 
-                    txtID.Focus();
-                }
+
+                dataGridView1[0, posicion].Value = txtID.Text;
+                dataGridView1[1, posicion].Value = txtNombre.Text; //Segun la pocision del campo se cambia el contenido
+                dataGridView1[2, posicion].Value = txtTel.Text;
+                Limpiar();
+                txtID.Focus();
             }
             catch (Exception err)
             {
