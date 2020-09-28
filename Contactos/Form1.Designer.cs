@@ -31,13 +31,13 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.agregarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -63,6 +63,13 @@
             this.agregarToolStripMenuItem.Text = "Mantenimiento";
             this.agregarToolStripMenuItem.Click += new System.EventHandler(this.agregarToolStripMenuItem_Click);
             // 
+            // salirToolStripMenuItem
+            // 
+            this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(50, 24);
+            this.salirToolStripMenuItem.Text = "Salir";
+            this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -81,9 +88,9 @@
             this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label2.Location = new System.Drawing.Point(12, 338);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(107, 18);
+            this.label2.Size = new System.Drawing.Size(141, 18);
             this.label2.TabIndex = 5;
-            this.label2.Text = "Jose Mendoza";
+            this.label2.Text = "Félix José Mendoza";
             // 
             // label3
             // 
@@ -92,9 +99,9 @@
             this.label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label3.Location = new System.Drawing.Point(12, 367);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(89, 18);
+            this.label3.Size = new System.Drawing.Size(129, 18);
             this.label3.TabIndex = 6;
-            this.label3.Text = "Pablo Perez";
+            this.label3.Text = "Pablo junior Perez";
             // 
             // label4
             // 
@@ -103,9 +110,9 @@
             this.label4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label4.Location = new System.Drawing.Point(12, 281);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(167, 18);
+            this.label4.Size = new System.Drawing.Size(181, 18);
             this.label4.TabIndex = 7;
-            this.label4.Text = "Integrantes de grupo:";
+            this.label4.Text = "Integrantes de grupo 3:";
             // 
             // pictureBox1
             // 
@@ -128,13 +135,6 @@
             this.label5.Size = new System.Drawing.Size(220, 15);
             this.label5.TabIndex = 8;
             this.label5.Text = "Todos los derechos reservados ®";
-            // 
-            // salirToolStripMenuItem
-            // 
-            this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(50, 24);
-            this.salirToolStripMenuItem.Text = "Salir";
-            this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
             // Form1
             // 

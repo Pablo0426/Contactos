@@ -72,7 +72,7 @@ namespace Contactos
                 //Se hace un recorrido por todas las filas de la lista
                 foreach (var NC in cont.datosContacs)
                 {
-                    if (NC.IdContacto == int.Parse(txtID.Text)) //Se encontra la coincidencia
+                    if (NC.IdContacto == int.Parse(txtID.Text) /*&& NC.Nombre == txtNombre.Text*/) //Se encontra la coincidencia
                     {
                         lbnombre.Visible = true; //Se hacen visibles los elementos
                         txnombre.Visible = true;
@@ -127,10 +127,16 @@ namespace Contactos
                 //Se hace un recorrido por todas las filas de la lista
                 foreach (var NC in cont.datosContacs)
                 {
-                    if (NC.IdContacto == int.Parse(txtID.Text)) //Se encontra la coincidencia
+                    if (NC.Nombre == txtNombre.Text) //Se encontra la coincidencia
                     {
                         cont.datosContacs.Remove(NC); //Se elimina la fila segun el Id digitado en el txtID
                         ListaContactos(); 
+                        Limpiar();
+                    }
+                    else if(NC.IdContacto == int.Parse(txtID.Text))
+                    {
+                        cont.datosContacs.Remove(NC); //Se elimina la fila segun el Id digitado en el txtID
+                        ListaContactos();
                         Limpiar();
                     }
                 }
