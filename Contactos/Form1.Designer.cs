@@ -77,9 +77,9 @@
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label1.Location = new System.Drawing.Point(12, 309);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(104, 18);
+            this.label1.Size = new System.Drawing.Size(100, 18);
             this.label1.TabIndex = 4;
-            this.label1.Text = "Carlos Medina";
+            this.label1.Text = "Carlos Molina";
             // 
             // label2
             // 
